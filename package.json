@@ -1,0 +1,35 @@
+{
+  "name": "secret-config",
+  "version": "1.0.0",
+  "description": "A Node.js module for managing a multi-environment encrypted config file.",
+  "main": "index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "./node_modules/.bin/coffee -c ./"
+  },
+  "author": "William Hilton",
+  "license": "MIT",
+  "dependencies": {
+    "extend": "^3.0.0",
+    "js-yaml": "^3.2.6",
+    "yael-autoencrypt": "^1.0.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wmhilton/secret-config.git"
+  },
+  "keywords": [
+    "encrypted",
+    "config",
+    "secure",
+    "secrets",
+    "yaml"
+  ],
+  "bugs": {
+    "url": "https://github.com/wmhilton/secret-config/issues"
+  },
+  "homepage": "https://github.com/wmhilton/secret-config"
+}
