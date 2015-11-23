@@ -1,10 +1,10 @@
 # secret-config
 A Node.js module for managing a multi-environment encrypted config file.
 
-This module uses my other module, [yael-autoencrypt](https://www.npmjs.com/package/yael-autoencrypt],
+This module uses my other module, [yael-autoencrypt](https://www.npmjs.com/package/yael-autoencrypt),
 to read and write to an encrypted config file. You should read the README for that module first.
 
-This module is a simple convenience wrapper. It basically just takes a YAML formatted file with
+This module is a convenience wrapper. It basically just takes a YAML formatted file with
 entries grouped by environment, and returns the correct configuration based on the current NODE_ENV.
 
 ## Installation
