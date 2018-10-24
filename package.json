@@ -1,6 +1,6 @@
 {
   "name": "secret-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A Node.js module for managing a multi-environment encrypted config file.",
   "main": "index",
   "scripts": {
