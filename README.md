@@ -23,6 +23,14 @@ secrets = require('secret-config')(
 
 // Subsequent use in other files can use cached results
 secrets = require('secret-config')();
+
+// If you do not want to cache results, useful if loading a second file
+secrets = require('secret-config')(
+  cache: false,
+  password: process.env.ENCRYPTION_PASSPHRASE2
+  plaintext_file: 'other-secrets.yaml'
+  encrypted_file: 'other-secrets.encrypted'
+)
 ```
 
 ## Config file
